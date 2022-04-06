@@ -1,0 +1,922 @@
+<!doctype html>
+<html lang="en">
+   <meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+   <head>
+      <meta charset="UTF-8"/>
+      <title>NANOPASS: Your Key To the Nanoverse</title>
+      <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png"/>
+      <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png"/>
+      <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png"/>
+      <link rel="manifest" href="assets/images/favicons/site.html"/>
+      <link rel="preconnect" href="https://fonts.googleapis.com/"/>
+      <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin/>
+      <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&amp;family=Iceberg&amp;display=swap" rel="stylesheet"/>
+      <meta name="description" content="5,555 plots of virtual land in the Nanoverse that also double as an early access token"/>
+      <meta name="viewport" content="width=device-width,initial-scale=1"/>
+      <meta property="og:title" content="NANOPASS: Your Key To the Nanoverse"/>
+      <meta property="og:description" content="5,555 plots of virtual land in the Nanoverse that also double as an early access token"/>
+      <meta property="og:type" content="website"/>
+      <meta property="og:image" content="assets/images/home-meta-image.png"/>
+      <meta name="twitter:card" content="summary_large_image"/>
+      <script src="ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+      <link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+      <script src="cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="cdnjs.cloudflare.com/ajax/libs/ethers/5.5.2/ethers.umd.min.js" integrity="sha512-PtOcu3WZTldHT+VjAJdWV5ss+iGebEgc1h5olJuxUNPvKuC0VOZsk1UhNgQYi5oIyrNHhdIOw8WQMdZwBv1MyQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <link rel="stylesheet" href="cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"/>
+      <link href="unpkg.com/tailwindcss%402.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+      <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+      <style>.mint-amount input{border:none;-webkit-appearance:none;-ms-appearance:none;-moz-appearance:none;appearance:none;background:#f2f2f2;padding:12px;border-radius:3px;width:60px;margin-left:10px;font-size:18px}</style>
+      <link href="css/app4f244f24.css?67db07d38de198be6ae8" rel="stylesheet"/>
+      <link href="css/home4f244f24.css?67db07d38de198be6ae8" rel="stylesheet"/>
+      <link href="static/css/main.c617b4e0.chunk.css" rel="stylesheet">
+   </head>
+   <body class="home">
+      <div id="mint-tutorial"></div>
+      <header>
+         <a class="logo" href="index.html"><img src="assets/images/logo.png" alt="Nanopass" loading="lazy"/></a>
+         <div class="headerMenu">
+            <nav>
+               <ul class="headerMain-nav">
+                  <li>
+                     <a class="btn-link-underlined" href="index-2.html">
+                        <span class="headerTitleSpan">Home </span>
+                        <svg class="link-underline" style="display:none">
+                           <use xlink:href="assets/images/icons.svg#link-underline"></use>
+                        </svg>
+                     </a>
+                  </li>
+                  <li>
+                     <a class="btn-link-underlined" href="blackbox/index.html">
+                        <span class="headerTitleSpan">Black Box </span>
+                        <svg class="link-underline" style="display:none">
+                           <use xlink:href="assets/images/icons.svg#link-underline"></use>
+                        </svg>
+                     </a>
+                  </li>
+               </ul>
+            </nav>
+         </div>
+         <div class="links">
+            <a class="btn-icon btn-icon-small" rel="noopener" href="https://twitter.com/nanoverseHQ" target="_blank">
+               <svg>
+                  <title>twitter</title>
+                  <use xlink:href="assets/images/icons.svg#twitter"></use>
+               </svg>
+            </a>
+            <a class="btn-icon btn-icon-small" rel="noopener" href="https://discord.com/invite/nanoversehq/" target="_blank">
+               <svg>
+                  <title>discord</title>
+                  <use xlink:href="assets/images/icons.svg#discord"></use>
+               </svg>
+            </a>
+            <a class="btn-icon" rel="noopener" href="https://opensea.io/collection/projectnanopass/" target="_blank" style="width:30px;height:30px">
+               <img src="assets/images/opensea.png" style="width:30px;height:30px;padding:5px"/>
+               <title>Opensea</title>
+            </a>
+            <button class="btn-icon menu-link">
+               <svg>
+                  <title>Menu</title>
+                  <use xlink:href="assets/images/icons.svg#menu"></use>
+               </svg>
+               <svg>
+                  <title>Close</title>
+                  <use xlink:href="assets/images/icons.svg#close"></use>
+               </svg>
+            </button>
+         </div>
+      </header>
+      <div class="menu">
+         <nav>
+            <ul class="main-nav">
+               <li>
+                  <a class="btn-link-underlined" href="index-2.html">
+                     <span>Home </span>
+                     <svg>
+                        <use xlink:href="assets/images/icons.svg#link-underline"></use>
+                     </svg>
+                     <div class="btn-number">01</div>
+                  </a>
+                  <ul class="sub-nav">
+                     <li><a href="index-2.html#">NANOPASS</a></li>
+                     <li><a href="index-2.html#archetypes">ARCHETYPES</a></li>
+                     <li><a href="index-2.html#blackbox">BLACKBOX</a></li>
+                     <li><a href="index-2.html#roadmap">ROADMAP</a></li>
+                     <li><a href="index-2.html#team">TEAM</a></li>
+                     <li><a href="index-2.html#faqs">FAQs</a></li>
+                  </ul>
+               </li>
+               <li>
+                  <a class="btn-link-underlined" href="blackbox/index.html">
+                     <span>Black Box </span>
+                     <svg>
+                        <use xlink:href="assets/images/icons.svg#link-underline"></use>
+                     </svg>
+                     <div class="btn-number">02</div>
+                  </a>
+                  <ul class="sub-nav">
+                     <li><a href="blackbox/index.html#">WHAT'S INSIDE</a></li>
+                     <li><a href="blackbox/index.html#howdoesitwork">HOW DOES IT WORK</a></li>
+                  </ul>
+               </li>
+            </ul>
+            <div class="menu-links">
+               <a class="btn-icon" rel="noopener" href="https://twitter.com/nanoverseHQ" target="_blank">
+                  <svg>
+                     <title>twitter</title>
+                     <use xlink:href="assets/images/icons.svg#twitter"></use>
+                  </svg>
+               </a>
+               <a class="btn-icon" rel="noopener" href="https://discord.com/invite/nanoversehq/" target="_blank">
+                  <svg>
+                     <title>discord</title>
+                     <use xlink:href="assets/images/icons.svg#discord"></use>
+                  </svg>
+               </a>
+            </div>
+            <div class="menu-copyright">
+               <p>COPYRIGHT © 2021 NANOPASS</p>
+            </div>
+            <div class="sub-nav-bg show-desktop-large"></div>
+         </nav>
+      </div>
+      <section class="hero">
+         <img class="section-background-image" src="assets/images/home-hero-bg.svg" alt="Nanopass background"/>
+         <div class="section-container">
+            <div class="section-content" id="mint">
+               <h1>Your key to the nanoverse</h1>
+               <div class="paragraph-large text-uppercase"><span id="mint-progress" class="color-purple">5555</span><span id="mint-progress-subheading"> unique passes</span></div>
+               <label class="mint-amount">Amount (Max <span id="max-mint-amount">1</span>): <input type="number" id="mint-amount" name="mint-amount" value="1" min="1" max="1"/></label> <button class="btn" id="mint-button">Connect Wallet</button>
+               <div class="text-small" id="wallet-text">Wallet not connected</div>
+            </div>
+            <div id="home-hero" class="intro-hero">
+               <div class="home-hero-image"><img src="assets/images/hero-underworld.png" alt="Nanopass 1" class="glitch-0" loading="lazy"/> <img src="assets/images/hero-underworld.png" alt="Nanopass 2" class="glitch-1" loading="lazy"/> <img src="assets/images/hero-underworld.png" alt="Nanopass 3" class="glitch-2" loading="lazy"/></div>
+            </div>
+         </div>
+      </section>
+      <section class="archetypes tabbed-section">
+         <div class="section-container">
+            <h2>
+               Nanopasses
+               <div class="subtitle">5 Archetypes</div>
+            </h2>
+            <div class="section-content">
+               <div class="show-mobile">
+                  <div class="carousel-wrapper">
+                     <div class="carousel">
+                        <div class="carousel-container">
+                           <div class="carousel-slide"><img src="assets/images/cyberpunk.png" alt="Cyberpunk" loading="lazy"/></div>
+                           <div class="carousel-slide"><img src="assets/images/eastern-gem.png" alt="Eastern Gem" loading="lazy"/></div>
+                           <div class="carousel-slide"><img src="assets/images/spacestation.png" alt="Spacestation" loading="lazy"/></div>
+                           <div class="carousel-slide"><img src="assets/images/underworld.png" alt="Underworld" loading="lazy"/></div>
+                           <div class="carousel-slide"><img src="assets/images/fantasy.png" alt="Fantasy" loading="lazy"/></div>
+                        </div>
+                        <button class="btn-basic carousel-chevron carousel-chevron-previous">
+                           <svg>
+                              <title>Carousel Nav Left</title>
+                              <use xlink:href="assets/images/icons.svg#chevron-left"></use>
+                           </svg>
+                        </button>
+                        <button class="btn-basic carousel-chevron carousel-chevron-next">
+                           <svg>
+                              <title>Carousel Nav Right</title>
+                              <use xlink:href="assets/images/icons.svg#chevron-right"></use>
+                           </svg>
+                        </button>
+                     </div>
+                     <div class="carousel-content">
+                        <div>
+                           <button class="btn-link-underlined active cyberpunk">
+                              <span>Cyberpunk </span>
+                              <svg>
+                                 <use xlink:href="assets/images/icons.svg#link-underline"></use>
+                              </svg>
+                              <div class="btn-number">01</div>
+                           </button>
+                           <p></p>
+                           <ul>
+                              <li>NANOPASSES are an early access pass that doubles as a plot of virtual land in the Nanoverse.</li>
+                              <li>Each pass is procedurally generated from a base set of 22 unique and animated assets.</li>
+                              <li>Passes grant weekly Black Boxes.</li>
+                              <li>Owning a pass guarantees an allocation in the private presale for Phase 2 of the larger project, which we have internally dubbed <span class="color-purple">'<span class="color-purple">Project SUBNET</span>'</span>.</li>
+                           </ul>
+                           <p></p>
+                        </div>
+                        <div>
+                           <button class="btn-link-underlined active eastern-gem">
+                              <span>Eastern Gem </span>
+                              <svg>
+                                 <use xlink:href="assets/images/icons.svg#link-underline"></use>
+                              </svg>
+                              <div class="btn-number">02</div>
+                           </button>
+                           <p></p>
+                           <ul>
+                              <li>NANOPASSES are an early access pass that doubles as a plot of virtual land in the Nanoverse.</li>
+                              <li>Each pass is procedurally generated from a base set of 22 unique and animated assets.</li>
+                              <li>Passes grant weekly Black Boxes.</li>
+                              <li>Owning a pass guarantees an allocation in the private presale for Phase 2 of the larger project, which we have internally dubbed <span class="color-purple">'<span class="color-purple">Project SUBNET</span>'</span>.</li>
+                           </ul>
+                           <p></p>
+                        </div>
+                        <div>
+                           <button class="btn-link-underlined active spacestation">
+                              <span>Spacestation </span>
+                              <svg>
+                                 <use xlink:href="assets/images/icons.svg#link-underline"></use>
+                              </svg>
+                              <div class="btn-number">03</div>
+                           </button>
+                           <p></p>
+                           <ul>
+                              <li>NANOPASSES are an early access pass that doubles as a plot of virtual land in the Nanoverse.</li>
+                              <li>Each pass is procedurally generated from a base set of 22 unique and animated assets.</li>
+                              <li>Passes grant weekly Black Boxes.</li>
+                              <li>Owning a pass guarantees an allocation in the private presale for Phase 2 of the larger project, which we have internally dubbed <span class="color-purple">'<span class="color-purple">Project SUBNET</span>'</span>.</li>
+                           </ul>
+                           <p></p>
+                        </div>
+                        <div>
+                           <button class="btn-link-underlined active underworld">
+                              <span>Underworld </span>
+                              <svg>
+                                 <use xlink:href="assets/images/icons.svg#link-underline"></use>
+                              </svg>
+                              <div class="btn-number">04</div>
+                           </button>
+                           <p></p>
+                           <ul>
+                              <li>NANOPASSES are an early access pass that doubles as a plot of virtual land in the Nanoverse.</li>
+                              <li>Each pass is procedurally generated from a base set of 22 unique and animated assets.</li>
+                              <li>Passes grant weekly Black Boxes.</li>
+                              <li>Owning a pass guarantees an allocation in the private presale for Phase 2 of the larger project, which we have internally dubbed <span class="color-purple">'<span class="color-purple">Project SUBNET</span>'</span>.</li>
+                           </ul>
+                           <p></p>
+                        </div>
+                        <div>
+                           <button class="btn-link-underlined active fantasy">
+                              <span>Fantasy </span>
+                              <svg>
+                                 <use xlink:href="assets/images/icons.svg#link-underline"></use>
+                              </svg>
+                              <div class="btn-number">05</div>
+                           </button>
+                           <p></p>
+                           <ul>
+                              <li>NANOPASSES are an early access pass that doubles as a plot of virtual land in the Nanoverse.</li>
+                              <li>Each pass is procedurally generated from a base set of 22 unique and animated assets.</li>
+                              <li>Passes grant weekly Black Boxes.</li>
+                              <li>Owning a pass guarantees an allocation in the private presale for Phase 2 of the larger project, which we have internally dubbed <span class="color-purple">'<span class="color-purple">Project SUBNET</span>'</span>.</li>
+                           </ul>
+                           <p></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="show-desktop">
+                  <div class="selector">
+                     <div class="selector-container">
+                        <div class="selector-column">
+                           <button class="selector-link btn-link-underlined cyberpunk">
+                              <span>Cyberpunk</span> 
+                              <svg>
+                                 <use xlink:href="assets/images/icons.svg#link-underline"></use>
+                              </svg>
+                              <div class="btn-number">01</div>
+                           </button>
+                           <button class="selector-link btn-link-underlined eastern-gem">
+                              <span>Eastern Gem</span> 
+                              <svg>
+                                 <use xlink:href="assets/images/icons.svg#link-underline"></use>
+                              </svg>
+                              <div class="btn-number">02</div>
+                           </button>
+                           <button class="selector-link btn-link-underlined spacestation">
+                              <span>Spacestation</span> 
+                              <svg>
+                                 <use xlink:href="assets/images/icons.svg#link-underline"></use>
+                              </svg>
+                              <div class="btn-number">03</div>
+                           </button>
+                           <button class="selector-link btn-link-underlined underworld">
+                              <span>Underworld</span> 
+                              <svg>
+                                 <use xlink:href="assets/images/icons.svg#link-underline"></use>
+                              </svg>
+                              <div class="btn-number">04</div>
+                           </button>
+                           <button class="selector-link btn-link-underlined fantasy">
+                              <span>Fantasy</span> 
+                              <svg>
+                                 <use xlink:href="assets/images/icons.svg#link-underline"></use>
+                              </svg>
+                              <div class="btn-number">05</div>
+                           </button>
+                           <div class="selector-content">
+                              <div>
+                                 <p></p>
+                                 <ul>
+                                    <li>NANOPASSES are an early access pass that doubles as a plot of virtual land in the Nanoverse.</li>
+                                    <li>Each pass is procedurally generated from a base set of 22 unique and animated assets.</li>
+                                    <li>Passes grant weekly Black Boxes.</li>
+                                    <li>Owning a pass guarantees an allocation in the private presale for Phase 2 of the larger project, which we have internally dubbed <span class="color-purple">'<span class="color-purple">Project SUBNET</span>'</span>.</li>
+                                 </ul>
+                                 <p></p>
+                              </div>
+                              <div>
+                                 <p></p>
+                                 <ul>
+                                    <li>NANOPASSES are an early access pass that doubles as a plot of virtual land in the Nanoverse.</li>
+                                    <li>Each pass is procedurally generated from a base set of 22 unique and animated assets.</li>
+                                    <li>Passes grant weekly Black Boxes.</li>
+                                    <li>Owning a pass guarantees an allocation in the private presale for Phase 2 of the larger project, which we have internally dubbed <span class="color-purple">'<span class="color-purple">Project SUBNET</span>'</span>.</li>
+                                 </ul>
+                                 <p></p>
+                              </div>
+                              <div>
+                                 <p></p>
+                                 <ul>
+                                    <li>NANOPASSES are an early access pass that doubles as a plot of virtual land in the Nanoverse.</li>
+                                    <li>Each pass is procedurally generated from a base set of 22 unique and animated assets.</li>
+                                    <li>Passes grant weekly Black Boxes.</li>
+                                    <li>Owning a pass guarantees an allocation in the private presale for Phase 2 of the larger project, which we have internally dubbed <span class="color-purple">'<span class="color-purple">Project SUBNET</span>'</span>.</li>
+                                 </ul>
+                                 <p></p>
+                              </div>
+                              <div>
+                                 <p></p>
+                                 <ul>
+                                    <li>NANOPASSES are an early access pass that doubles as a plot of virtual land in the Nanoverse.</li>
+                                    <li>Each pass is procedurally generated from a base set of 22 unique and animated assets.</li>
+                                    <li>Passes grant weekly Black Boxes.</li>
+                                    <li>Owning a pass guarantees an allocation in the private presale for Phase 2 of the larger project, which we have internally dubbed <span class="color-purple">'<span class="color-purple">Project SUBNET</span>'</span>.</li>
+                                 </ul>
+                                 <p></p>
+                              </div>
+                              <div>
+                                 <p></p>
+                                 <ul>
+                                    <li>NANOPASSES are an early access pass that doubles as a plot of virtual land in the Nanoverse.</li>
+                                    <li>Each pass is procedurally generated from a base set of 22 unique and animated assets.</li>
+                                    <li>Passes grant weekly Black Boxes.</li>
+                                    <li>Owning a pass guarantees an allocation in the private presale for Phase 2 of the larger project, which we have internally dubbed <span class="color-purple">'<span class="color-purple">Project SUBNET</span>'</span>.</li>
+                                 </ul>
+                                 <p></p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="selector-column selector-image">
+                           <div class="selector-image-content">
+                              <div>
+                                 <a href="assets/images/cyberpunk_hq.png" class="carousel-image">
+                                    <div style="position:absolute;top:10px;right:20px;opacity:28%">CLICK TO EXPAND</div>
+                                    <img src="assets/images/cyberpunk.png" alt="Cyberpunk"/>
+                                 </a>
+                              </div>
+                           </div>
+                           <div class="selector-image-content">
+                              <div>
+                                 <a href="assets/images/eastern-gem_hq.png" class="carousel-image">
+                                    <div style="position:absolute;top:10px;right:20px;opacity:28%">CLICK TO EXPAND</div>
+                                    <img src="assets/images/eastern-gem.png" alt="Eastern Gem"/>
+                                 </a>
+                              </div>
+                           </div>
+                           <div class="selector-image-content">
+                              <div>
+                                 <a href="assets/images/spacestation_hq.png" class="carousel-image">
+                                    <div style="position:absolute;top:10px;right:20px;opacity:28%">CLICK TO EXPAND</div>
+                                    <img src="assets/images/spacestation.png" alt="Spacestation"/>
+                                 </a>
+                              </div>
+                           </div>
+                           <div class="selector-image-content">
+                              <div>
+                                 <a href="assets/images/underworld_hq.png" class="carousel-image">
+                                    <div style="position:absolute;top:10px;right:20px;opacity:28%">CLICK TO EXPAND</div>
+                                    <img src="assets/images/underworld.png" alt="Underworld"/>
+                                 </a>
+                              </div>
+                           </div>
+                           <div class="selector-image-content">
+                              <div>
+                                 <a href="assets/images/fantasy_hq.png" class="carousel-image">
+                                    <div style="position:absolute;top:10px;right:20px;opacity:28%">CLICK TO EXPAND</div>
+                                    <img src="assets/images/fantasy.png" alt="Fantasy"/>
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="blackbox tabbed-section">
+         <div class="section-container">
+            <h2>
+               Perpetual [BLACK BOX]
+               <div class="subtitle">What&#39;s Inside?</div>
+            </h2>
+            <div class="section-content section-content-columns">
+               <div class="section-content-column"><img src="assets/images/perpetual.png" alt="Perpetual [BLACK BOX]" loading="lazy"/></div>
+               <div class="section-content-column">
+                  <div class="section-content-bg">
+                     <ul>
+                        <li>Each NANOPASS will generate a weekly <span class="highlight">[BLACK BOX]</span>, which may contain valuable loot.</li>
+                        <li>This loot may contain physical goods, other popular NFTs, or a donation to a charitable cause.. the possibilities are limited only by your imagination as it will be the community that decides what they are.</li>
+                        <li><span class="highlight">[BLACK BOXES]</span> will be funded through the community vault which will receive 75% of all secondary market royalties.</li>
+                        <li><span class="highlight">[BLACK BOXES]</span> can be claimed from your Owner's Portal on our website after logging in with your Metamask.</li>
+                     </ul>
+                  </div>
+                  <a href="blackbox/index.html" class="btn">Learn More</a>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="roadmap tabbed-section">
+         <div class="section-container">
+            <h2>
+               Roadmap
+               <div class="subtitle"></div>
+            </h2>
+         </div>
+         <div class="section-container-full">
+            <div class="section-content">
+               <div class="accordion-container container-width">
+                  <div class="ac">
+                     <h2 class="ac-header"><button class="ac-trigger accordion-label roadmap-btn"><span class="btn-icon btn-icon-blue roadmap-icon">01 </span>Passes are available for Mint</button></h2>
+                     <div class="roadmap-horizontal-separator"></div>
+                     <div class="ac-panel">
+                        <div class="roadmap-item-container">
+                           <p class="paragraph-large">Welcome, Agents. You are now officially enlisted as a founding supporter of the Nanoverse. You stand at the start of something great. Your mysterious passes are ready to take you places you cannot imagine.</p>
+                        </div>
+                        <svg class="roadmap-line">
+                           <use xlink:href="assets/images/icons.svg#link-underline"></use>
+                        </svg>
+                     </div>
+                  </div>
+                  <div class="ac">
+                     <h2 class="ac-header"><button class="ac-trigger accordion-label roadmap-btn"><span class="btn-icon btn-icon-blue roadmap-icon">02 </span>NANOPASSES REVEALED &amp; COMMUNITY VAULT COMES ONLINE</button></h2>
+                     <div class="roadmap-horizontal-separator"></div>
+                     <div class="ac-panel">
+                        <div class="roadmap-item-container">
+                           <p class="paragraph-large">Once Phase 1 is completed, the NANOPASSES will be revealed and the community vault will be set up. <span class="p-spacer"></span></p>
+                        </div>
+                        <svg class="roadmap-line">
+                           <use xlink:href="assets/images/icons.svg#link-underline"></use>
+                        </svg>
+                     </div>
+                  </div>
+                  <div class="ac">
+                     <h2 class="ac-header"><button class="ac-trigger accordion-label roadmap-btn"><span class="btn-icon btn-icon-blue roadmap-icon">03 </span>WEEKLY [BLACK BOXES] START DROPPING</button></h2>
+                     <div class="roadmap-horizontal-separator"></div>
+                     <div class="ac-panel">
+                        <div class="roadmap-item-container">
+                           <p class="paragraph-large">Every week, passes will enable you to plunder <span class="highlight">[BLACK BOXES]</span> from the Nanoverse. Boxes that are uncorrupted could theoretically contain a diverse range of goods. Items such as weapons and outfits may very well start showing up in the future…</p>
+                        </div>
+                        <svg class="roadmap-line">
+                           <use xlink:href="assets/images/icons.svg#link-underline"></use>
+                        </svg>
+                     </div>
+                  </div>
+                  <div class="ac">
+                     <h2 class="ac-header"><button class="ac-trigger accordion-label roadmap-btn"><span class="btn-icon btn-icon-blue roadmap-icon">04 </span>UNVEILING OF PROJECT SUBNET</button></h2>
+                     <div class="roadmap-horizontal-separator"></div>
+                     <div class="ac-panel">
+                        <div class="roadmap-item-container">
+                           <p class="paragraph-large">Rei and Rui are physical manifestations of data lifeforms. They are highly intelligent and firmly allied with us. They were the first, but they will not be the last. There will be more of their kin outside our world and perhaps in time they too shall reach out to us. We stand at the dawn of a new era.</p>
+                        </div>
+                        <svg class="roadmap-line">
+                           <use xlink:href="assets/images/icons.svg#link-underline"></use>
+                        </svg>
+                     </div>
+                  </div>
+                  <div class="ac">
+                     <h2 class="ac-header"><button class="ac-trigger accordion-label roadmap-btn"><span class="btn-icon btn-icon-blue roadmap-icon">05 </span>PARTNERSHIPS WITH OTHER NFT DROPS</button></h2>
+                     <div class="roadmap-horizontal-separator"></div>
+                     <div class="ac-panel">
+                        <div class="roadmap-item-container">
+                           <p class="paragraph-large">Our founders are early adopters in the crypto space. We are in preliminary talks with multiple alpha groups and founders that we think are winners. Similar to <span class="color-purple">Project SUBNET</span>, our pass holders will be given exclusive access to those projects.</p>
+                        </div>
+                        <svg class="roadmap-line">
+                           <use xlink:href="assets/images/icons.svg#link-underline"></use>
+                        </svg>
+                     </div>
+                  </div>
+                  <div class="ac">
+                     <h2 class="ac-header"><button class="ac-trigger accordion-label roadmap-btn"><span class="btn-icon btn-icon-blue roadmap-icon">06 </span>LAUNCH ADDITIONAL LINES OF BLACK BOXES</button></h2>
+                     <div class="roadmap-horizontal-separator"></div>
+                     <div class="ac-panel">
+                        <div class="roadmap-item-container">
+                           <p class="paragraph-large">We plan to launch several additional series of premium perpetual Black Box NFT’s in the future. Current pass holders will be given priority access to these drops as well.</p>
+                        </div>
+                        <svg class="roadmap-line">
+                           <use xlink:href="assets/images/icons.svg#link-underline"></use>
+                        </svg>
+                     </div>
+                  </div>
+               </div>
+               <div class="video-container">
+                  <canvas id="roadmap-bg-canvas"></canvas>
+                  <video id="roadmap-bg-video" autoplay muted loop playsinline src="assets/videos/rei-rui-roadmap.mp4" type="video/mp4"></video>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="team tabbed-section">
+         <div class="section-container">
+            <h2>
+               Team
+               <div class="subtitle">Who are we?</div>
+            </h2>
+            <div class="section-content">
+               <div class="show-mobile">
+                  <div class="carousel-wrapper">
+                     <div class="carousel">
+                        <div class="carousel-container">
+                           <div class="carousel-slide"><img src="assets/images/agent-rei.png" alt="Agent Rei" loading="lazy"/></div>
+                           <div class="carousel-slide"><img src="assets/images/agent-rui.png" alt="Agent Rui" loading="lazy"/></div>
+                           <div class="carousel-slide"><img src="assets/images/agent-yuri.png" alt="Agent Yuri" loading="lazy"/></div>
+                           <div class="carousel-slide"><img src="assets/images/dev.png" alt="Dev" loading="lazy"/></div>
+                           <div class="carousel-slide"><img src="assets/images/iamabsinthe.png" alt="IAmAbsinthe" loading="lazy"/></div>
+                        </div>
+                        <button class="btn-basic carousel-chevron carousel-chevron-previous">
+                           <svg>
+                              <title>Carousel Nav Left</title>
+                              <use xlink:href="assets/images/icons.svg#chevron-left"></use>
+                           </svg>
+                        </button>
+                        <button class="btn-basic carousel-chevron carousel-chevron-next">
+                           <svg>
+                              <title>Carousel Nav Right</title>
+                              <use xlink:href="assets/images/icons.svg#chevron-right"></use>
+                           </svg>
+                        </button>
+                     </div>
+                     <div class="carousel-content">
+                        <div>
+                           <button class="btn-link-underlined active agent-rei">
+                              <span>Agent Rei </span>
+                              <svg>
+                                 <use xlink:href="assets/images/icons.svg#link-underline"></use>
+                              </svg>
+                              <div class="btn-number">01</div>
+                           </button>
+                           <div class="carousel-additional-content">
+                              <span class="subtitle">Project Lead</span> 
+                              <a class="btn-icon" href="https://twitter.com/reicannon" target="_blank" rel="noopener">
+                                 <svg>
+                                    <title>Agent Rei Twitter</title>
+                                    <use xlink:href="assets/images/icons.svg#twitter"></use>
+                                 </svg>
+                              </a>
+                           </div>
+                           <p>The founder of this project, he is the stoic and somber glue that holds the NANOPASS family together. Leaning on his wealth of experience as Managing Director of many successful IRL ventures, he leads the charge in executing our ambitious roadmap and build NANOPASS into the next bluechip NFT project.</p>
+                        </div>
+                        <div>
+                           <button class="btn-link-underlined active agent-rui">
+                              <span>Agent Rui </span>
+                              <svg>
+                                 <use xlink:href="assets/images/icons.svg#link-underline"></use>
+                              </svg>
+                              <div class="btn-number">02</div>
+                           </button>
+                           <div class="carousel-additional-content">
+                              <span class="subtitle">Artist Lead</span> 
+                              <a class="btn-icon" href="https://twitter.com/REEEEEruiiiii" target="_blank" rel="noopener">
+                                 <svg>
+                                    <title>Agent Rui Twitter</title>
+                                    <use xlink:href="assets/images/icons.svg#twitter"></use>
+                                 </svg>
+                              </a>
+                           </div>
+                           <p>Fearless Leader and Art Director, champion of all things aesthetic. She has garnered praise for her unyielding attention to detail and artistic style. Her impressive team has worked on massively successful games such as Valorant, and like every good leader, Rui is nothing without the talented artists behind her.</p>
+                        </div>
+                        <div>
+                           <button class="btn-link-underlined active agent-yuri">
+                              <span>Agent Yuri </span>
+                              <svg>
+                                 <use xlink:href="assets/images/icons.svg#link-underline"></use>
+                              </svg>
+                              <div class="btn-number">03</div>
+                           </button>
+                           <div class="carousel-additional-content">
+                              <span class="subtitle">Community Lead</span> 
+                              <a class="btn-icon" href="https://twitter.com/Yuri_ramen" target="_blank" rel="noopener">
+                                 <svg>
+                                    <title>Agent Yuri Twitter</title>
+                                    <use xlink:href="assets/images/icons.svg#twitter"></use>
+                                 </svg>
+                              </a>
+                           </div>
+                           <p>The Queen of Ramen, leader of the Simps. She plans to dominate the Nanoverse with her army of Ramen lovers. As a community leader, she engages with everyone, gives out free Ramen, and abuses her Whitelist distribution authority. She is a Head Marketer at a financial services conglomerate and an early adopter of NFTs & Crypto. Her strategy? Ape first, understand later.</p>
+                        </div>
+                        <div>
+                           <button class="btn-link-underlined active dev">
+                              <span>Dev </span>
+                              <svg>
+                                 <use xlink:href="assets/images/icons.svg#link-underline"></use>
+                              </svg>
+                              <div class="btn-number">04</div>
+                           </button>
+                           <div class="carousel-additional-content">
+                              <span class="subtitle">Tech Lead</span> 
+                              <a class="btn-icon" href="https://twitter.com/projectNANOPASS" target="_blank" rel="noopener">
+                                 <svg>
+                                    <title>Dev Twitter</title>
+                                    <use xlink:href="assets/images/icons.svg#twitter"></use>
+                                 </svg>
+                              </a>
+                           </div>
+                           <p>The brains, the brawn, the hidden pillar behind NANOPASS. With over 10 years experience in blockchain dev, he reads only in code.</p>
+                        </div>
+                        <div>
+                           <button class="btn-link-underlined active iamabsinthe">
+                              <span>IAmAbsinthe </span>
+                              <svg>
+                                 <use xlink:href="assets/images/icons.svg#link-underline"></use>
+                              </svg>
+                              <div class="btn-number">05</div>
+                           </button>
+                           <div class="carousel-additional-content">
+                              <span class="subtitle">Marketing Lead</span> 
+                              <a class="btn-icon" href="https://twitter.com/iamabsinthe" target="_blank" rel="noopener">
+                                 <svg>
+                                    <title>IAmAbsinthe Twitter</title>
+                                    <use xlink:href="assets/images/icons.svg#twitter"></use>
+                                 </svg>
+                              </a>
+                           </div>
+                           <p>Lead Marketer who has $0 budget – trying to do the impossible. She often complains to Rei about how limited the marketing budget is. She is a funds management analyst and ex-streamer of LoL and Valorant. Spent most of her year studying for CFA until a 3-month lockdown happened and the exam became non-existent. Now she’s a full time NFT aper.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="show-desktop">
+                  <div class="selector">
+                     <div class="selector-container">
+                        <div class="selector-column">
+                           <button class="selector-link btn-link-underlined agent-rei">
+                              <span>Agent Rei</span> 
+                              <svg>
+                                 <use xlink:href="assets/images/icons.svg#link-underline"></use>
+                              </svg>
+                              <div class="btn-number">01</div>
+                           </button>
+                           <button class="selector-link btn-link-underlined agent-rui">
+                              <span>Agent Rui</span> 
+                              <svg>
+                                 <use xlink:href="assets/images/icons.svg#link-underline"></use>
+                              </svg>
+                              <div class="btn-number">02</div>
+                           </button>
+                           <button class="selector-link btn-link-underlined agent-yuri">
+                              <span>Agent Yuri</span> 
+                              <svg>
+                                 <use xlink:href="assets/images/icons.svg#link-underline"></use>
+                              </svg>
+                              <div class="btn-number">03</div>
+                           </button>
+                           <button class="selector-link btn-link-underlined dev">
+                              <span>Dev</span> 
+                              <svg>
+                                 <use xlink:href="assets/images/icons.svg#link-underline"></use>
+                              </svg>
+                              <div class="btn-number">04</div>
+                           </button>
+                           <button class="selector-link btn-link-underlined iamabsinthe">
+                              <span>IAmAbsinthe</span> 
+                              <svg>
+                                 <use xlink:href="assets/images/icons.svg#link-underline"></use>
+                              </svg>
+                              <div class="btn-number">05</div>
+                           </button>
+                           <div class="selector-content">
+                              <div>
+                                 <p>The founder of this project, he is the stoic and somber glue that holds the NANOPASS family together. Leaning on his wealth of experience as Managing Director of many successful IRL ventures, he leads the charge in executing our ambitious roadmap and build NANOPASS into the next bluechip NFT project.</p>
+                              </div>
+                              <div>
+                                 <p>Fearless Leader and Art Director, champion of all things aesthetic. She has garnered praise for her unyielding attention to detail and artistic style. Her impressive team has worked on massively successful games such as Valorant, and like every good leader, Rui is nothing without the talented artists behind her.</p>
+                              </div>
+                              <div>
+                                 <p>The Queen of Ramen, leader of the Simps. She plans to dominate the Nanoverse with her army of Ramen lovers. As a community leader, she engages with everyone, gives out free Ramen, and abuses her Whitelist distribution authority. She is a Head Marketer at a financial services conglomerate and an early adopter of NFTs & Crypto. Her strategy? Ape first, understand later.</p>
+                              </div>
+                              <div>
+                                 <p>The brains, the brawn, the hidden pillar behind NANOPASS. With over 10 years experience in blockchain dev, he reads only in code.</p>
+                              </div>
+                              <div>
+                                 <p>Lead Marketer who has $0 budget – trying to do the impossible. She often complains to Rei about how limited the marketing budget is. She is a funds management analyst and ex-streamer of LoL and Valorant. Spent most of her year studying for CFA until a 3-month lockdown happened and the exam became non-existent. Now she’s a full time NFT aper.</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="selector-column selector-image">
+                           <div class="selector-image-content">
+                              <img src="assets/images/agent-rei.png" alt="Agent Rei"/>
+                              <div class="selector-additional-content">
+                                 <div class="selector-details">
+                                    <div class="h2">
+                                       Agent Rei
+                                       <div class="subtitle agent-rei">Project Lead</div>
+                                    </div>
+                                 </div>
+                                 <a class="btn-icon" href="https://twitter.com/reicannon" target="_blank" rel="noopener">
+                                    <svg>
+                                       <title>Agent Rei Twitter</title>
+                                       <use xlink:href="assets/images/icons.svg#twitter"></use>
+                                    </svg>
+                                 </a>
+                              </div>
+                           </div>
+                           <div class="selector-image-content">
+                              <img src="assets/images/agent-rui.png" alt="Agent Rui"/>
+                              <div class="selector-additional-content">
+                                 <div class="selector-details">
+                                    <div class="h2">
+                                       Agent Rui
+                                       <div class="subtitle agent-rui">Artist Lead</div>
+                                    </div>
+                                 </div>
+                                 <a class="btn-icon" href="https://twitter.com/REEEEEruiiiii" target="_blank" rel="noopener">
+                                    <svg>
+                                       <title>Agent Rui Twitter</title>
+                                       <use xlink:href="assets/images/icons.svg#twitter"></use>
+                                    </svg>
+                                 </a>
+                              </div>
+                           </div>
+                           <div class="selector-image-content">
+                              <img src="assets/images/agent-yuri.png" alt="Agent Yuri"/>
+                              <div class="selector-additional-content">
+                                 <div class="selector-details">
+                                    <div class="h2">
+                                       Agent Yuri
+                                       <div class="subtitle agent-yuri">Community Lead</div>
+                                    </div>
+                                 </div>
+                                 <a class="btn-icon" href="https://twitter.com/Yuri_ramen" target="_blank" rel="noopener">
+                                    <svg>
+                                       <title>Agent Yuri Twitter</title>
+                                       <use xlink:href="assets/images/icons.svg#twitter"></use>
+                                    </svg>
+                                 </a>
+                              </div>
+                           </div>
+                           <div class="selector-image-content">
+                              <img src="assets/images/dev.png" alt="Dev"/>
+                              <div class="selector-additional-content">
+                                 <div class="selector-details">
+                                    <div class="h2">
+                                       Dev
+                                       <div class="subtitle dev">Tech Lead</div>
+                                    </div>
+                                 </div>
+                                 <a class="btn-icon" href="https://twitter.com/projectNANOPASS" target="_blank" rel="noopener">
+                                    <svg>
+                                       <title>Dev Twitter</title>
+                                       <use xlink:href="assets/images/icons.svg#twitter"></use>
+                                    </svg>
+                                 </a>
+                              </div>
+                           </div>
+                           <div class="selector-image-content">
+                              <img src="assets/images/iamabsinthe.png" alt="IAmAbsinthe"/>
+                              <div class="selector-additional-content">
+                                 <div class="selector-details">
+                                    <div class="h2">
+                                       IAmAbsinthe
+                                       <div class="subtitle iamabsinthe">Marketing Lead</div>
+                                    </div>
+                                 </div>
+                                 <a class="btn-icon" href="https://twitter.com/iamabsinthe" target="_blank" rel="noopener">
+                                    <svg>
+                                       <title>IAmAbsinthe Twitter</title>
+                                       <use xlink:href="assets/images/icons.svg#twitter"></use>
+                                    </svg>
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="faqs tabbed-section">
+         <div class="section-container">
+            <h2>
+               Common Questions
+               <div class="subtitle"></div>
+            </h2>
+            <div class="section-content">
+               <img id="yuri-faq" src="assets/images/yuri-faq.png" alt="Common Questions background" loading="lazy"/>
+               <div class="accordion-container">
+                  <div class="faqs-divider"></div>
+                  <div class="ac">
+                     <h2 class="ac-header"><button class="ac-trigger accordion-label">What are the other benefits of owning a NANOPASS?</button></h2>
+                     <div class="ac-panel">
+                        <p class="paragraph-large">Owning a NANOPASS means you're a certified early supporter. You will gain priority access to our future projects and guaranteed presale slots in Phase 2+.<span class="p-spacer"></span>The second phase of our Main Storyline is already in the works. Internally we have dubbed it <span class="color-purple">'<span class="color-purple">Project SUBNET</span>'</span>. Pass holders will be guaranteed a spot on the whitelist. Although details cannot be disclosed for the time being, we promise that you will not be disappointed!</p>
+                     </div>
+                     <div class="faqs-divider"></div>
+                  </div>
+                  <div class="ac">
+                     <h2 class="ac-header"><button class="ac-trigger accordion-label">How many NANOPASSES will be available?</button></h2>
+                     <div class="ac-panel">
+                        <p class="paragraph-large">5,555</p>
+                     </div>
+                     <div class="faqs-divider"></div>
+                  </div>
+                  <div class="ac">
+                     <h2 class="ac-header"><button class="ac-trigger accordion-label">What is the mint price?</button></h2>
+                     <div class="ac-panel">
+                        <p class="paragraph-large">0.08888 ETH + gas fees.</p>
+                     </div>
+                     <div class="faqs-divider"></div>
+                  </div>
+                  <div class="ac">
+                     <h2 class="ac-header"><button class="ac-trigger accordion-label">When will you be minting?</button></h2>
+                     <div class="ac-panel">
+                        <p class="paragraph-large">Targeting mid December.</p>
+                     </div>
+                     <div class="faqs-divider"></div>
+                  </div>
+                  <div class="ac">
+                     <h2 class="ac-header"><button class="ac-trigger accordion-label">Which marketplace will NANOPASS be listed on?</button></h2>
+                     <div class="ac-panel">
+                        <p class="paragraph-large">We will be listed on OpenSea.</p>
+                     </div>
+                     <div class="faqs-divider"></div>
+                  </div>
+                  <div class="ac">
+                     <h2 class="ac-header"><button class="ac-trigger accordion-label">How do I get White Listed?</button></h2>
+                     <div class="ac-panel">
+                        <p class="paragraph-large">We will be distributing 4,555 whitelists through various methods. Being an early supporter will guarantee a spot in the whitelist. 1,000 NANOPASSES will be left for public mint.<span class="p-spacer"></span><span class="p-spacer"></span>The team will also be hosting numerous community events on our Discord and Twitter to give away whitelist spots. Positive contributions to the community will not go unnoticed.</p>
+                     </div>
+                     <div class="faqs-divider"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="community tabbed-section">
+         <div class="section-container">
+            <h2>
+               Join the community
+               <div class="subtitle">Join our discord</div>
+            </h2>
+            <div class="section-content section-content-columns">
+               <div class="section-content-column">
+                  <p>Connect with the rest of our thriving NANOPASS community.<span class="p-spacer"></span>Join the action on our discord server to get the latest news and announcements.</p>
+                  <a href="https://discord.com/invite/nanoversehq/" class="btn">Discord</a>
+               </div>
+            </div>
+         </div>
+         <img class="section-background-image" src="assets/images/community-bg.jpg" alt="Join the community background" loading="lazy"/>
+      </section>
+      <footer class="footer">
+         <div class="footer-container section-container">
+            <a class="footer-logo" href="index-2.html"><img src="assets/images/logo.png" alt="Nanopass" loading="lazy"/></a>
+            <div class="footer-links">
+               <div class="footer-links-column">
+                  <a class="btn-link-underlined" href="index-2.html">
+                     <span class="footer-links-column-header">Home </span>
+                     <svg class="link-underline">
+                        <use xlink:href="assets/images/icons.svg#link-underline"></use>
+                     </svg>
+                     <div class="btn-number">01</div>
+                  </a>
+                  <a class="subtitle" href="index-2.html#">NANOPASS </a><a class="subtitle" href="index-2.html#archetypes">ARCHETYPES </a><a class="subtitle" href="index-2.html#blackbox">BLACKBOX </a><a class="subtitle" href="index-2.html#roadmap">ROADMAP </a><a class="subtitle" href="index-2.html#team">TEAM </a><a class="subtitle" href="index-2.html#faqs">FAQs</a>
+               </div>
+               <div class="footer-links-column">
+                  <a class="btn-link-underlined" href="blackbox/index.html">
+                     <span class="footer-links-column-header">Black Box </span>
+                     <svg class="link-underline">
+                        <use xlink:href="assets/images/icons.svg#link-underline"></use>
+                     </svg>
+                     <div class="btn-number">02</div>
+                  </a>
+                  <a class="subtitle" href="blackbox/index.html#">WHAT'S INSIDE </a><a class="subtitle" href="blackbox/index.html#howdoesitwork">HOW DOES IT WORK</a>
+               </div>
+            </div>
+            <div class="footer-socials">
+               <a class="btn-icon btn-icon-small" rel="noopener" href="https://twitter.com/nanoverseHQ" target="_blank">
+                  <svg>
+                     <title>twitter</title>
+                     <use xlink:href="assets/images/icons.svg#twitter"></use>
+                  </svg>
+               </a>
+               <a class="btn-icon btn-icon-small" rel="noopener" href="https://discord.com/invite/nanoversehq/" target="_blank">
+                  <svg>
+                     <title>discord</title>
+                     <use xlink:href="assets/images/icons.svg#discord"></use>
+                  </svg>
+               </a>
+            </div>
+         </div>
+         <div id="copyright">
+            <p>COPYRIGHT © 2021 NANOPASS</p>
+         </div>
+      </footer>
+      <script>var provider,signer,contract,price,address,isPresale=!1,isDutchAuction=!1,maxCount=1,supply=0,connected=!1,contractAddress="0xf54cC94f1F2f5De012B6Aa51F1E7eBdc43Ef5afC";function updateViewState(){$("#btn-price").text("Loading..."),address&&($("#mint-button").text("mint"),$("#wallet-text").text("Account "+address+" connected"),$("#mint-amount").attr({max:maxCount}),0==maxCount&&$("#mint-amount").attr({min:0,value:0}),$("#max-mint-amount").text(maxCount)),$("#sale-text").text(""),$("#sale-text-subheading").text(""),$("#mint-button").hide(),$("#wallet-text").show(),$("#mint-amount").hide(),$(".mint-amount").hide(),$("#promo-text").show(),connected||($("#mint-button").show(),$("#wallet-text").show())}function onConnect(t){}function onTxError(t){var e=t.error.message;-1!==e.indexOf("insufficient funds")&&(e="Not enough money, please top up your wallet."),Toastify({text:e,duration:3e3,close:!0,gravity:"bottom",position:"center",stopOnFocus:!0,style:{background:"linear-gradient(to right, #F52228, #FF7075)"}}).showToast()}function performMint(){var t=price,e=parseInt($("#mint-amount").val()),n=ethers.utils.parseEther((t*e).toString());isPresale?contract.estimateGas.mintPresale(e,{value:n}).then((function(t){var o=t.mul(1200).div(1e3);contract.mintPresale(e,{value:n,gasLimit:o}).then((function(t){console.log(t)})).catch(onTxError)})).catch(onTxError):contract.estimateGas.mintDutchAuction(e,{value:n}).then((function(t){var o=t.mul(1200).div(1e3);contract.mintDutchAuction(e,{value:n,gasLimit:o}).then((function(t){console.log(t)})).catch(onTxError)})).catch(onTxError)}function performConnect(){ethereum.request({method:"eth_requestAccounts"}).then((function(){provider=new ethers.providers.Web3Provider(window.ethereum),signer=provider.getSigner(),provider.listAccounts().then((function(t){t.length>0&&onConnect(t[0])}))}))}$(document).ready((function(){updateViewState(),window.ethereum&&(provider=new ethers.providers.Web3Provider(window.ethereum)).listAccounts().then((function(t){t.length>0?(signer=provider.getSigner(),onConnect(t[0])):performConnect()})),$("#mint-button").click((function(){connected?performMint():performConnect()})),$(".carousel-image").magnificPopup({type:"image"})}))</script><script defer="defer" src="scripts/app4f24.js"></script><script defer="defer" src="scripts/home4f24.js"></script><script>!function(e){function r(r){for(var n,l,a=r[0],f=r[1],i=r[2],c=0,s=[];c<a.length;c++)l=a[c],Object.prototype.hasOwnProperty.call(o,l)&&o[l]&&s.push(o[l][0]),o[l]=0;for(n in f)Object.prototype.hasOwnProperty.call(f,n)&&(e[n]=f[n]);for(p&&p(r);s.length;)s.shift()();return u.push.apply(u,i||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,a=1;a<t.length;a++){var f=t[a];0!==o[f]&&(n=!1)}n&&(u.splice(r--,1),e=l(l.s=t[0]))}return e}var n={},o={1:0},u=[];function l(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,l),t.l=!0,t.exports}l.m=e,l.c=n,l.d=function(e,r,t){l.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},l.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},l.t=function(e,r){if(1&r&&(e=l(e)),8&r)return e;if(4&r&&"object"==typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(l.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)l.d(t,n,function(r){return e[r]}.bind(null,n));return t},l.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return l.d(r,"a",r),r},l.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},l.p="index.html";var a=this.webpackJsonpallstars=this.webpackJsonpallstars||[],f=a.push.bind(a);a.push=r,a=a.slice();for(var i=0;i<a.length;i++)r(a[i]);var p=f;t()}([])</script><script src="static/js/2.e928a326.chunk.js"></script><script src="static/js/main.1db2d67a.chunk.js"></script>
+   </body>
+</html>
