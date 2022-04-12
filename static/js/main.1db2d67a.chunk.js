@@ -355,7 +355,7 @@
                 W = function(e) {
                     Object(h.a)(a, e);
                     var t = Object(p.a)(a);
-
+                    const chainId = 4; // 1 main 4 rinkeby
                     function a(e) {
                         var n;
                         return Object(u.a)(this, a), (n = t.call(this, e)).state = {
@@ -368,10 +368,10 @@
                             error: "",
                             modalShown: !1
                         }, y.a.initialize("G-3KLHD526QF"), window.ethereum && (window.ethereum.on("connect", (function(e) {
-                            e.chainId !== "0x".concat(1) && window.ethereum.request({
+                            e.chainId !== "0x".concat(chainId) && window.ethereum.request({
                                 method: "wallet_switchEthereumChain",
                                 params: [{
-                                    chainId: "0x".concat(1)
+                                    chainId: "0x".concat(chainId)
                                 }]
                             })
                         })), window.ethereum.on("accountsChanged", function() {
@@ -534,7 +534,7 @@
                                                     category: "User",
                                                     action: "Mint Button Click",
                                                     label: "Mint Clicked: ".concat(n, " [").concat(parseFloat(b.a.utils.fromWei(o.toString())).toFixed(4), " ETH]")
-                                                }), 1 === this.state.wallet.chainId) {
+                                                }), chainId === this.state.wallet.chainId) {
                                                 e.next = 14;
                                                 break
                                             }
@@ -549,7 +549,7 @@
                                             return e.next = 14, window.ethereum.request({
                                                 method: "wallet_switchEthereumChain",
                                                 params: [{
-                                                    chainId: "0x".concat(1)
+                                                    chainId: "0x".concat(chainId)
                                                 }]
                                             });
                                         case 14:
